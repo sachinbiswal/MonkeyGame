@@ -1,0 +1,32 @@
+
+.speech-cloud-with-tail {
+    /* border: 2px solid red; */
+    margin: 8% 30% 0 0 ;
+    position: absolute;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    font-size: 16px;
+    position: absolute;
+  }
+  
+  .top-right {
+    margin: 20px;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+  }
+  
+  .tail {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: #ffffff transparent transparent transparent;
+    right: 70%;
+    top: 100%;
+  }
+  

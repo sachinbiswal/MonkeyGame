@@ -1,0 +1,100 @@
+/* play.css */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.game {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  margin-top: 0;
+}
+
+.progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10px;
+  background-color: red;
+  transition: width 0.5s ease-in-out;
+}
+
+.card-container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 80%;
+}
+
+.left-cards {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.right-cards {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: calc(33.33% - 10px);
+  height: 200px;
+  width: 200px;
+  margin-left: 10px;
+}
+
+.fruit {
+  width: 100%;
+  height: 100%;
+}
+
+.tries-info {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 25px;
+  color: red;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.game-over-popup {
+  text-align: center;
+  padding: 20px;
+}
+
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #888;
+}
+
+.game-over-popup {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
