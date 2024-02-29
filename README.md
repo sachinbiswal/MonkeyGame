@@ -4,23 +4,12 @@ A memory match game built with React that challenges players to match pairs of f
 
 ## Table of Contents
 
-- [Demo](#demo)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Game Rules](#game-rules)
 - [Customization](#customization)
 - [Contributing](#contributing)
-
-## Demo
-
-![s2](https://github.com/malayadaniGIT/monkeygame/assets/109133343/fafcbe9a-b21e-443f-bde0-36b76093e0b0)
-![s1](https://github.com/malayadaniGIT/monkeygame/assets/109133343/5a0e8e90-834a-4c77-906c-89915f832d5c)
-![s3](https://github.com/malayadaniGIT/monkeygame/assets/109133343/956b7c0f-aac1-4247-ad90-3e40159f57ef)
-![s4](https://github.com/malayadaniGIT/monkeygame/assets/109133343/966a83b8-4a37-4d88-be0e-e65210dc6499)
-![s5](https://github.com/malayadaniGIT/monkeygame/assets/109133343/90d0dc38-dc0c-40c5-9dd6-ce2acf9ad566)
-
-
 
 
 ## Features
